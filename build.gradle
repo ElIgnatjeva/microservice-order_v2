@@ -37,12 +37,12 @@ dependencies {
 	implementation 'io.micrometer:micrometer-registry-prometheus'
 
 	implementation 'org.zalando:problem-spring-web:0.26.2'
-	compile 'org.apache.commons:commons-lang3:3.11'
+	implementation 'org.apache.commons:commons-lang3:3.11'
 
-	compileOnly 'org.projectlombok:lombok'
+	compileOnly 'org.projectlombok:lombok:1.18.30'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
-	annotationProcessor 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

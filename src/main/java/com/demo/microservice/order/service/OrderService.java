@@ -2,7 +2,6 @@ package com.demo.microservice.order.service;
 
 import com.demo.microservice.order.entity.Order;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
