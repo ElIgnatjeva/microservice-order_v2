@@ -40,7 +40,7 @@ public class OrderResource {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "The order already has an id");
         }
         final var result = orderRepository.save(order);
-//        orderService.createOrder(result);
+        orderService.createOrder(result);
 
         HttpHeaders headers = new HttpHeaders();
         String message = String.format("A new %s is created with id %s", ENTITY_NAME, result.getId().toString());
